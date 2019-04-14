@@ -2,46 +2,34 @@
 
 <html>
 
-<head>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/style.css">
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
-<!--
+        <script type="text/javascript">
 
-제일먼저 Jquery를 import한다. 로컬에 다운받은게 있으면 src부분에 경로지정해 주면 된다.
+            $(document).ready( function() {
 
-Jquery버전은 상관없다.
+	            $("#contents").load("home.html");
 
--->
+                    });
 
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        </script>
 
-<script type="text/javascript">
+    </head>
+    <body>
 
-//페이지가 로드되면 실행한다.
+        <div id="header">이부분은 헤더</div>
 
-$(document).ready( function() {
+        <div id="contents">
 
-	$("#contents").load("home.html");
+        <!-- 여기는 다른 html파일을 넣자 -->
 
-    //~이렇게 한줄만 해주면 알아서 contents에 testContents.html파일을 넣어 준다.
+        </div>
 
-});
+        <div id="footer">이부분은 푸터</div>
 
-</script>
-
-</head>
-
-<body>
-
-<div id="header">이부분은 헤더</div>
-
-<div id="contents">
-
-<!-- 여기는 다른 html파일을 넣자 -->
-
-</div>
-
-<div id="footer">이부분은 푸터</div>
-
-</body>
+    </body>
 
 </html>
