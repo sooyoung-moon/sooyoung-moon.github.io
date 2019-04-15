@@ -62,8 +62,8 @@ video#bgvid {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
-	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-	color: #28e651b8;
+	font-family: monospace;
+	color: #6a92a9b8;
 	letter-spacing: -0.03em;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); }
 
@@ -78,14 +78,14 @@ h1 {
 	/* Gives that scrolling effect as the typing happens */
 	letter-spacing: .1em;
 	/* Adjust as needed */
-	animation: typing 4.6s steps(40, end), blink-caret 0.75s step-end infinite; }
+	animation: typing 4.0s steps(40, end), blink-caret 0.75s step-end infinite; }
 
   /* The typing effect */
   @keyframes typing {
 	from {
 	  width: 0; }
 	to {
-	  width: 50%; } }
+	  width: 60%; } }
   /* The typewriter cursor effect */
   @keyframes blink-caret {
 	from, to {
