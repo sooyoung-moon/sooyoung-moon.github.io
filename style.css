@@ -35,25 +35,12 @@
     background-color: black;
 } */
 
-header {
-	position : fixed;
-	top : 0;
-	left : 0;
-	min-width : 100% ;
-	min-height : 100% ;
-	width : auto;
-	height : auto;
-	/* z-index : -1;
-	margin: 0 auto; */
-}
 
 
 /* Global */
 html{
   min-height: 100%;
   overflow: hidden;
-  background : url ("/moon.jpg") no-repeat;
-  background-size: cover;
 }
 body{
   height: calc(100vh - 8em);
@@ -61,6 +48,8 @@ body{
   color: rgba(255,255,255,.75);
   font-family: monospace;
   background-color: rgb(25,25,25);
+  background : url ("/moon.jpg") no-repeat;
+  background-size: cover;
 }
 .line-1{
     position: relative;
