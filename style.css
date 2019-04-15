@@ -1,7 +1,12 @@
 .wrap {
 	width: 800px;
-	border: 1px solid #cccccc;
+	border: 10px solid #cccccc;
 	margin: 0 auto;
+}
+
+header {
+	width: 100% ;
+	border: 10px solid #f5f3f3;
 }
 
 body {
