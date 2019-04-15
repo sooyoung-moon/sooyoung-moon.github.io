@@ -34,7 +34,7 @@ body {
     padding : 0;
     background-color: black;
 }
-video {
+video#bgvid {
 	position : fixed;
 	top : 0;
 	left : 0;
@@ -42,8 +42,8 @@ video {
 	min-height : 100% ;
 	width : auto;
 	height : auto;
-	background : url ("space.png") center center fixed no-repeat;
+	background : url ("/space.png") no-repeat;
 	background-size: cover;
-	z-index : -1;
-	margin: 0 auto;
+	/* z-index : -1;
+	margin: 0 auto; */
 }
