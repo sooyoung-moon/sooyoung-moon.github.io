@@ -43,8 +43,6 @@ header {
 	min-height : 100% ;
 	width : auto;
 	height : auto;
-	background : url ("/moon.jpg") no-repeat;
-	background-size: cover;
 	/* z-index : -1;
 	margin: 0 auto; */
 }
@@ -54,6 +52,8 @@ header {
 html{
   min-height: 100%;
   overflow: hidden;
+  background : url ("/moon.jpg") no-repeat;
+  background-size: cover;
 }
 body{
   height: calc(100vh - 8em);
@@ -91,7 +91,7 @@ body{
 }
 
 
-.overlay{
+.typewriter{
 	position: absolute;
 	top: 0;
 	bottom: 0;
