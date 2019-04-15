@@ -67,7 +67,7 @@ html{
 body{
 	background-image: url('/moon.jpg');
 	background-repeat: no-repeat;
-	background-size:auto;
+	background-size: 100% auto;
 	height: calc(100vh - 8em);
 	padding: 4em;
 	color: rgba(255,255,255,.75);
