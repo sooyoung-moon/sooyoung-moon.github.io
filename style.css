@@ -1,7 +1,6 @@
 body {
 	margin : 0 auto;
     padding : 0;
-    background : url ("space.png") center center fixed no-repeat;
     background-color: black;
 }
 video {
@@ -12,5 +11,7 @@ video {
 	min-height : 100% ;
 	width : auto;
 	height : auto;
+	background : url ("space.png") center center fixed no-repeat;
+	background-size: cover;
 	z-index : -1;
 }
