@@ -34,7 +34,8 @@
     padding : 0;
     background-color: black;
 } */
-video#bgvid {
+
+/* video#bgvid {
 	position : fixed;
 	top : 0;
 	left : 0;
@@ -44,8 +45,12 @@ video#bgvid {
 	height : auto;
 	background : url ("/space.png") no-repeat;
 	background-size: cover;
-	/* z-index : -1;
-	margin: 0 auto; */
+} */
+img
+{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
 }
 .overlay{
 	position: absolute;
