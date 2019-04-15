@@ -34,7 +34,6 @@
     padding : 0;
     background-color: black;
 } */
-
 video#bgvid {
 	position : fixed;
 	top : 0;
@@ -59,7 +58,7 @@ body{
   height: calc(100vh - 8em);
   padding: 4em;
   color: rgba(255,255,255,.75);
-  font-family: monospace;
+  font-family: 'Anonymous Pro', monospace;
   background-color: rgb(25,25,25);
 }
 .line-1{
@@ -72,8 +71,7 @@ body{
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-	transform: translateY(-50%);
-	font-weight: 300;
+    transform: translateY(-50%);
 }
 
 /* Animation */
@@ -83,7 +81,7 @@ body{
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 22em;}
+  to{width: 20em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
