@@ -46,12 +46,7 @@
 	background : url ("/space.png") no-repeat;
 	background-size: cover;
 } */
-img
-{
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 .overlay{
 	position: absolute;
 	top: 0;
@@ -70,12 +65,15 @@ html{
   overflow: hidden;
 }
 body{
-  height: calc(100vh - 8em);
-  padding: 4em;
-  color: rgba(255,255,255,.75);
-  font-family: 'Anonymous Pro', monospace;
-  font-weight: 100;
-  background-color: rgb(25,25,25);
+	background-image: url('/moon.jpg');
+	background-repeat: no-repeat;
+	background-size:auto;
+	height: calc(100vh - 8em);
+	padding: 4em;
+	color: rgba(255,255,255,.75);
+	font-family: 'Anonymous Pro', monospace;
+	font-weight: 100;
+	background-color: rgb(25,25,25);
 }
 .line-1{
     position: relative;
