@@ -35,7 +35,7 @@
     background-color: black;
 } */
 
-video#bgvid {
+header {
 	position : fixed;
 	top : 0;
 	left : 0;
@@ -43,7 +43,7 @@ video#bgvid {
 	min-height : 100% ;
 	width : auto;
 	height : auto;
-	background : url ("/space.png") no-repeat;
+	background : url ("/moon.jpg") no-repeat;
 	background-size: cover;
 	/* z-index : -1;
 	margin: 0 auto; */
