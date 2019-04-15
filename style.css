@@ -34,6 +34,7 @@
     padding : 0;
     background-color: black;
 } */
+
 video#bgvid {
 	position : fixed;
 	top : 0;
@@ -58,7 +59,7 @@ body{
   height: calc(100vh - 8em);
   padding: 4em;
   color: rgba(255,255,255,.75);
-  font-family: 'Anonymous Pro', monospace;
+  font-family: monospace;
   background-color: rgb(25,25,25);
 }
 .line-1{
@@ -71,7 +72,8 @@ body{
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-weight: 300;
 }
 
 /* Animation */
