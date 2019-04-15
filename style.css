@@ -85,7 +85,7 @@ h1 {
 	from {
 	  width: 0; }
 	to {
-	  width: 50%; } }
+	  width: 45%; } }
   /* The typewriter cursor effect */
   @keyframes blink-caret {
 	from, to {
