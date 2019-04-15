@@ -35,6 +35,19 @@
     background-color: black;
 } */
 
+video#bgvid {
+	position : fixed;
+	top : 0;
+	left : 0;
+	min-width : 100% ;
+	min-height : 100% ;
+	width : auto;
+	height : auto;
+	background : url ("/space.png") no-repeat;
+	background-size: cover;
+	/* z-index : -1;
+	margin: 0 auto; */
+}
 
 
 /* Global */
@@ -48,12 +61,10 @@ body{
   color: rgba(255,255,255,.75);
   font-family: monospace;
   background-color: rgb(25,25,25);
-  background : url ("/moon.jpg") no-repeat;
-  background-size: cover;
 }
 .line-1{
     position: relative;
-    top: 50%;
+    top: 10%;
     width: 22em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
@@ -62,7 +73,7 @@ body{
     white-space: nowrap;
     overflow: hidden;
 	transform: translateY(-50%);
-	font-weight: 200;
+	font-weight: 300;
 }
 
 /* Animation */
@@ -77,4 +88,17 @@ body{
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+
+
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
 }
